@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Build
-      - run: ./hello
+        run: ./hello
       - name: Run
-      - run: gcc hello.c
+        run: gcc hello.c
