@@ -12,3 +12,5 @@ jobs:
 
       - name: Build
         run: ./hello
+      - name: Run
+        run: gcc hello.c
