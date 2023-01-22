@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build
-        run: ./hello
-      - name: Run
         run: gcc hello.c
+      - name: Run
+        run: ./hello
