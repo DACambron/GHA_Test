@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
 
+  workflow_dispatch:
+
 defaults:
   run:
     shell: bash
@@ -15,6 +17,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build
-        run: gcc hello.c
+        run: ./build.sh
       - name: Run
         run: ./hello
