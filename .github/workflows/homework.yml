@@ -16,5 +16,3 @@ jobs:
         run:  make hello
       - name: Run
         run: ./hello
-      - name: Test
-        run:
