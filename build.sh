@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gcc hello.c
+# gcc hello.c
